@@ -381,7 +381,7 @@ function captDave(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-<button class="btn charm " onclick="addX()"> <strong>   X   </strong> </button>
+<button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
         <p class="edu blue"> <strong> Dave Basile, <i>Captain Dave</i></strong>, played music from an early age as a drummer for a popular Rock
 group. His band opened up for the Left Banke (<i>Just Walk Away Renee</i> and <i>Pretty Ballerina</i>).
 They also opened for Ruby and the Romantics (Our Day Will Come). Captain Dave has also
@@ -411,7 +411,7 @@ function lizGeorge(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm " onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
         <p class="edu blue"> <strong> Liz George</strong>, is a vocalist and a percussionist who studied Classical voice with Seymour Osborne,
 where she sang arias for Luciano Pavarotti and Fred Gwynne, and Rock and Blues voice with
 Joyce Bryant. She has performed with Grammy winners Chuck Mangione, David Crosby, Gloria
@@ -443,7 +443,7 @@ function jimAnz(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm " onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
         <p class="edu blue"> <strong> Jim Anzalone</strong>, started playing guitar in high school.  He played in a band called Rage with his
 sister and friend, Rick. Jim started a band with his new best friend, Kevin, after high school. 
 Kevin told Jim, “We can’t find a bass player, so you are it.” Jim continued to play with Kevin for
@@ -476,7 +476,7 @@ function markBon(mod) {
   // bg__img.src=`./assets/mark1.JPG`
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm " onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
         <p class="edu blue"> <strong> Mark Bonifacio</strong>, has been playing guitar in bands for 30 years.  Starting while in college in
 Rochester, NY in the 1990s, most of his time has been spent in bands around the NYC area,
 including locations such as Mexicali Blues Cafe in Teaneck, NJ, The Turning Point in Piermont,

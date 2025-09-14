@@ -749,24 +749,24 @@ max-width: 380px;
 
 .name-cardsD{
     border-radius: 4px;
-    background-color: rgba(74, 150, 172, 0.2);
+    background-color: rgba(74, 150, 172, 0.3);
     padding:4px;
     /* max-width: fit-content; */
 }
 
 .name-cardsL{
     border-radius: 4px;
-    background-color: rgba(251, 189, 55, .2);
+    background-color: rgba(251, 189, 55, .3);
     padding:4px;}
 
     .name-cardsJ{
     border-radius: 4px;
-    background-color: rgba(251, 55, 55, 0.15);
+    background-color: rgba(251, 55, 55, 0.2);
     padding:4px;
     }
     .name-cardsM{
     border-radius: 4px;
-    background-color: rgba(55, 251, 212, 0.2);
+    background-color: rgba(55, 251, 212, 0.3);
     padding:4px;}
 
 .contact-head{
@@ -790,3 +790,7 @@ animation: press 200ms !important;}
 
 
 
+
+.x:hover{
+    background-image: linear-gradient(to right,rgba(251, 189, 55, .2),rgba(251, 55, 55, 0.15),rgba(251, 189, 55, .2)) !important;
+}
