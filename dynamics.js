@@ -21,7 +21,7 @@ else playIcon=`<i class="fa-solid fa-pause orange"></i>`;
 
 //navigation icons with formatting
 const icons = `
-<div id="top__about" class="top__about bottom__album"><video muted autoplay src="./assets/cdHt.mp4" class="bottom__album--img" loop></video></div>
+<div id="top__about" class="top__about bottom__album"><video muted autoplay src="./assets/cdHt(1).mp4" class="bottom__album--img" loop></video></div>
           <!-- <button class="btn" onclick="aboutUs()">
         <h3 class="charm inside__anch">ABOUT THE BAND</h3></button> -->
 
@@ -374,7 +374,7 @@ function captDave(mod) {
   bottomFlip("./assets/highTideLogo.JPG", mod);
 
   bottom.innerHTML = `<div class="name-cardsD"><h1 class="charm">-Dave Basile- </h1>
-        <p> <i class="edu"> A.K.A Captain Dave </i></p><h3> <i>RHYTHM GUITAR</i> </h3><iframe src="https://drive.google.com/file/d/1XmlI1kVfskEnUOfaPZT9B-Dg_9PjtmSv/preview" width="458" height="476" class="member__img" allow="autoplay"></iframe>` ;
+        <p> <i class="edu"> A.K.A Captain Dave </i></p><h3> <i>RHYTHM GUITAR</i> </h3><img src="./assets/compressed_david0.JPG" class="member__img">` ;
   personJump();
   //           const bg__img = document.getElementById("bg__img");
   // bg__img.src=`./assets/david0.JPG`
@@ -467,7 +467,7 @@ function markBon(mod) {
 
   bottom.innerHTML = `<div class="name-cardsM"><h1 class="charm"> -Mark Bonifacio- </h1>
         <h3> <i>LEAD GUITAR</i> </h3>
-    <img src="./assets/mark0.JPG" class="member__img">`;
+    <img src="./assets/compressed_mark0.JPG" class="member__img">`;
 
   personJump();
 
@@ -555,7 +555,7 @@ function albumCover() {
   console.log(`hey there`);
   let albums = document.getElementById("top__about");
   console.log(albums);
-   albums.innerHTML = `<video muted autoplay src="./assets/cdHt.mp4" class="bottom__album--img" loop></video>`
+   albums.innerHTML = `<video muted autoplay src="./assets/cdHt(1).mp4" class="bottom__album--img" loop></video>`
 
 
 //   if (document.getElementsByClassName("bottom__album").length=!0){
