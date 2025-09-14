@@ -374,7 +374,7 @@ function captDave(mod) {
   bottomFlip("./assets/highTideLogo.JPG", mod);
 
   bottom.innerHTML = `<div class="name-cardsD"><h1 class="charm">-Dave Basile- </h1>
-        <p> <i class="edu"> A.K.A Captain Dave </i></p><h3> <i>RHYTHM GUITAR</i> </h3><img src="./assets/david0.JPG" class="member__img">` ;
+        <p> <i class="edu"> A.K.A Captain Dave </i></p><h3> <i>RHYTHM GUITAR</i> </h3><iframe src="https://drive.google.com/file/d/1XmlI1kVfskEnUOfaPZT9B-Dg_9PjtmSv/preview" class="member__img"></iframe>` ;
   personJump();
   //           const bg__img = document.getElementById("bg__img");
   // bg__img.src=`./assets/david0.JPG`
@@ -574,4 +574,5 @@ function albumCover() {
 // }
 
 // albumCover();
+
 // setInterval(albumCover, 10000);
