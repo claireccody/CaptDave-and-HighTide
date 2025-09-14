@@ -238,8 +238,8 @@ animation: dip 1s infinite alternate-reverse;
 .btn:hover{
     scale: 103%;
     border-radius: 8px;
-    /* background-color:rgba(35, 67, 76, .5); */
-        background-color: rgba(245, 245, 255,.25);
+     background-color:rgba(35, 67, 76, .5);
+     /*   background-color: rgba(245, 245, 255,.25);*/
     /* color: rgba(245, 245, 255,1); */
 color: black;
         background-color: rgba(251, 189, 55, 0.51);
@@ -770,6 +770,7 @@ max-width: 380px;
 .alt-con:active{
 animation: press 200ms !important;}
     
+
 
 
 
