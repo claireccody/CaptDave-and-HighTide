@@ -536,9 +536,10 @@ a.home:hover{
 
       /* background-color: rgba(251, 189, 55, .7); */
       background-color: rgba(245, 245, 255, .2);
-      border: 2px solid rgba(237, 251, 255, 1)
+      /* border: 0px solid rgba(237, 251, 255, 1) */
       
 }
+
 
 .contact__input{
     z-index: 4;
@@ -774,7 +775,7 @@ max-width: 380px;
     align-items: center;
     justify-content: center;
     z-index: 4;
-    margin:-32px auto 0 auto;
+    margin:0px auto 48px auto;
     padding-top: 64px;
     border-radius: 4px;
 }
