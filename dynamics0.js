@@ -31,7 +31,7 @@ function members0(){
   bg__img.classList.toggle("bg__img");
   bg__img.classList.toggle("bg__imgA");
 
-      bg__img.src = "./assets/highTideLogo.jpg";
+      bottomFlip("./assets/highTideLogo.JPG", true);
 top.classList.add("topA");
 top.classList.remove("topB");
 
