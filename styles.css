@@ -101,7 +101,7 @@ main{
     /* max-height: 100vh;
     max-width: 100vw; */
     position: fixed;
-    opacity: .44;
+    opacity: .64;
     left: 0;
     z-index: -100;
 }
@@ -771,4 +771,5 @@ max-width: 380px;
 .alt-con:active{
 animation: press 200ms !important;}
     
+
 
