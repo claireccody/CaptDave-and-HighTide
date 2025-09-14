@@ -442,6 +442,7 @@ color: black;
     width: 80%;
     border-radius: 4px;
     box-shadow: 4px 0px 4px 0px rgba(74, 150, 172, 0.65);
+    display:none;
 }
 
 .bggA{
@@ -770,3 +771,4 @@ max-width: 380px;
 .alt-con:active{
 animation: press 200ms !important;}
     
+
