@@ -274,8 +274,8 @@ animation: dip 1s infinite alternate-reverse;
 .inside__anchs{
 
     align-self: center;
-    max-width:50%;
-    min-width:600px;
+    /* max-width:50%; */
+    /* min-width:400px; */
     /* display: flex; */
     padding: 6px;
     flex-direction: column;
@@ -761,7 +761,7 @@ max-width: 380px;
 
     .name-cardsJ{
     border-radius: 4px;
-    background-color: rgba(251, 55, 55, 0.2);
+    background-color: rgba(251, 55, 55, 0.2 );
     padding:4px;
     }
     .name-cardsM{
@@ -794,3 +794,94 @@ animation: press 200ms !important;}
 .x:hover{
     background-image: linear-gradient(to right,rgba(251, 189, 55, .2),rgba(251, 55, 55, 0.15),rgba(251, 189, 55, .2)) !important;
 }
+
+/*
+
+MEDIA QUERIES
+
+*/
+
+/* Styles for screens smaller than 768px */
+@media (max-width: 1300px) {
+  .blue {
+    font-size: large;
+  }
+
+  .members__member
+  {
+    font-size: large;
+  }
+
+  #memberBox{
+    font-size: large;
+    background-color: rgba(245, 245, 255, .95);
+  }
+
+  
+}
+
+
+@media (max-width: 850px){
+     .topB{
+        left: 5%;
+    }
+
+            .inside__anchs{
+        width:90% !important;
+    }
+
+      .bg__img{
+    width: 95vw;
+    height: 95vw;
+  }
+
+  .row{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 850px){
+
+    .inside__anchs{
+    max-width:50%;}
+
+}
+
+/* Styles for landscape orientation */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media screen and (orientation: landscape) {
+  body {
+    font-size: 18px;
+  }
+} */
