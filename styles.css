@@ -807,6 +807,7 @@ MEDIA QUERIES
 @media (max-width: 1300px) {
   .blue {
     font-size: medium;
+    padding: 8px;
   }
 
   .members__member
@@ -846,7 +847,9 @@ MEDIA QUERIES
     height: 95vw;
   }
 
-
+.btn{
+    font-size: small;
+}
 
      .topB{
         left: 5%;
