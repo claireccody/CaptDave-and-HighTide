@@ -80,7 +80,7 @@ body {
     margin: 0;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
-overflow: hidden;
+/* overflow: hidden; */
      /* background-color: rgba(39, 229, 245, 0.3); */
 
 }
@@ -821,6 +821,10 @@ MEDIA QUERIES
 
   .sheet__right{
     flex-direction: column-reverse;
+  }
+
+  .contact-head{
+    padding-top: 16px;
   }
 
   .bg__imgA{
