@@ -577,7 +577,8 @@ function albumCover() {
 
 // setInterval(albumCover, 10000);
 
-const width = window.innerWidth;
-const height = window.innerHeight;
+const Swidth = window.innerWidth;
+const Sheight = window.innerHeight;
+console.log(Swidth);
 
-if (width < 800) alert("If using mobile device, turn device horizontally for best experience.")
+if (Swidth < 850) alert("If using mobile device, turn device horizontally for best experience.")
