@@ -30,7 +30,7 @@
 
 main{
     border: none;
-    overflow-y: hidden;
+    overflow-y:scroll;
     max-height: 110vh;
 }
 
@@ -344,7 +344,7 @@ animation: dip 1s infinite alternate-reverse;
 .topA{
     position: absolute;
     left:10vw;
-    top: 10vh;
+    /* top: 10vh; */
 }
 
 
@@ -816,22 +816,27 @@ MEDIA QUERIES
 
   #memberBox{
     font-size: large;
-    background-color: rgba(245, 245, 255, .95);
+    background-color: rgba(245, 245, 255, .85);
   }
 
   .sheet__right{
     flex-direction: column-reverse;
   }
-        .bg__img{
-    width: 95vw;
-    height: 95vw;
-  }
+
 }
 
 
 @media (max-width: 850px){
+            .bg__img{
+    width: 95vw;
+    height: 95vw;
+  }
      .topB{
         left: 5%;
+    }
+
+    .topA{
+        top:20vh;
     }
 
             .inside__anchs{
@@ -846,15 +851,20 @@ MEDIA QUERIES
 
   .members{
     flex-direction: row;
-    min-width: fit-content;
+    min-width: 100vw;
     max-height:30%;
-    left:5%;
-    bottom:5%;
-    right:5%;
+    bottom:0%;
+    right:0%;
+    transform: translateX(50), translateY(50);
+    padding: 12px;
   }
 }
 
 @media (min-width: 850px){
+
+    .topA{
+        top:10vh;
+    }
 
     .inside__anchs{
     max-width:50%;}

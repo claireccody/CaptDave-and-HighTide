@@ -581,4 +581,4 @@ const Swidth = window.innerWidth;
 const Sheight = window.innerHeight;
 console.log(Swidth);
 
-if (Swidth < 850) alert("If using mobile device, turn device horizontally for best experience.")
+if (Swidth < 1100) alert("If using mobile device, turn device horizontally for best experience.")
