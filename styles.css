@@ -171,7 +171,7 @@ animation: dip 1s infinite alternate-reverse;
     .link-nav__btn{
         background-color: rgba(0,0,0,0) !important;
         padding: 8px;
-        border: none;
+        border: .1px solid #00000000;
         transform: scale(1.1) !important;
     }
 
@@ -360,9 +360,9 @@ animation: dip 1s infinite alternate-reverse;
     transition: all 225ms;
     max-height: fit-content;
 }
-#bottom:hover{
+/* #bottom:hover{
     border: 1px solid black;
-}
+} */
 
 .inside__anch{
     transition: scale 225ms;
@@ -788,10 +788,17 @@ max-width: 380px;
 .alt-con:active{
 animation: press 200ms !important;}
     
+#arrow{
+    animation: dip 2000ms infinite alternate-reverse;
+    transform: scale(1.15);
+}
+#arrow:hover{
+    animation: wave 1000ms infinite alternate-reverse;
+}
 
-
-
-
+#arrow:active{
+    animation: press 200ms;
+}
 
 .x:hover{
     background-image: linear-gradient(to right,rgba(251, 189, 55, .2),rgba(251, 55, 55, 0.15),rgba(251, 189, 55, .2)) !important;

@@ -3,12 +3,14 @@ let us = true;
 //BAND BIO w/formatting
 const about_the_band = ` <p class="edu">We would like to introduce you to <button class="btn" onclick="members0()" ><strong class="charm orange">Captain Dave & High Tide</strong></button>. We perform an <strong class="">eclectic mix</strong> of
 genres, and <strong class="">originals written by our members</strong>, which give our music a <strong class="">unique sound</strong>.</p>
+<div id="more" class="hide">
 <p class="edu" >We have been fortunate to perform with one another as well as with <strong class="">world-renowned musicians</strong>,
 and we bring those experiences to our music. We have a dedicated following who come to <strong class="">enjoy
 dinner and our shows</strong>. </p>
 <p></p>
 <p class="edu">We strive to connect with the audience, and our goal is to create the <strong class="">right
-vibe for your venue</strong>.</p>
+vibe for your venue</strong>.</p></div>
+<i id="arrow" class="fa-solid fa-circle-chevron-down more"></i>
 `;
 /*<button class="btn charm" onclick="meetCrew()"> ↝ </button>*/
 
@@ -581,4 +583,14 @@ const Swidth = window.innerWidth;
 const Sheight = window.innerHeight;
 console.log(Swidth);
 
-if (Swidth < 850) alert("If using mobile device, keep device vertical for best experience.")
+if (Swidth < 850) alert("If using mobile device, keep device vertical for best experience.");
+
+function seeMore(){
+    document.getElementById("arrow").classList.toggle("fa-circle-chevron-down");
+    document.getElementById("arrow").classList.toggle("fa-circle-chevron-up");
+    document.getElementById("more").classList.toggle("hide");
+}
+
+  document.getElementById("more").addEventListener("click", seeMore);
+
+document.getElementById("arrow").addEventListener("click", seeMore);
