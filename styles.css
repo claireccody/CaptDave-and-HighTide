@@ -830,7 +830,8 @@ MEDIA QUERIES
 @media (max-width: 1300px) {
   .blue {
     font-size: medium;
-    padding: 8px;
+    padding: 16px;
+
   }
 
   .members__member
@@ -845,6 +846,11 @@ MEDIA QUERIES
 
   .sheet__right{
     flex-direction: column-reverse;
+
+  }
+
+  .sheet__right--R{
+    display: none;
   }
 
   .contact-head{
@@ -853,6 +859,18 @@ MEDIA QUERIES
 
   .bg__imgA{
     width: 100vw;
+  }
+
+  .contact{
+        background-image: url("./assets/highTideLogo.JPG");
+      background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size:contain;
+  background-position: center; /* Centers the image */
+  }
+
+  .contact__input:focus
+  {
+    background-color: rgba(245, 245, 255, 0.9);
   }
 
 }
@@ -865,6 +883,10 @@ MEDIA QUERIES
 
 
 @media (max-width: 850px){
+
+    .sheet__right{
+        max-width: 10vw;
+    }
 
     .edu{
         font-size: small;
@@ -921,6 +943,9 @@ MEDIA QUERIES
       #others{
         display: none;
     }
+    .blue{
+        resize: vertical;
+    }
 }
 
 @media (min-width: 850px){
@@ -943,6 +968,18 @@ MEDIA QUERIES
 
 }
 
+
+@media (max-width: 440px){
+    .sheet__right{
+        transform: scale(.8);
+    }
+}
+
+@media (min-width: 440px){
+    .sheet__right{
+        transform: scale(.8);
+    }
+}
 /* Styles for landscape orientation */
 
 
