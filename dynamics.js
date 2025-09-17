@@ -383,16 +383,17 @@ function captDave(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-<button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
+<button class="btn charm x" onclick="addX()"> <strong><i class="fa-regular fa-circle-xmark"></i></strong> </button>
         <p class="edu blue"> <strong> Dave Basile, <i>Captain Dave</i></strong>, played music from an early age as a drummer for a popular Rock
 group. His band opened up for the Left Banke (<i>Just Walk Away Renee</i> and <i>Pretty Ballerina</i>).
 They also opened for Ruby and the Romantics (Our Day Will Come). Captain Dave has also
 appeared on stage with Willie Nile, American Singer/Songwriter. Dave has performed several
 times at Café Artiste, a prestigious venue in Ocean Grove, New Jersey for original
 singers/songwriters. Dave plays guitar, sings, and is the leader of <a class="" href="contact.html" target="_blank" rel="noopener noreferrer"><strong class="charm alt-con">Captain Dave & High Tide</strong></a>.</p>
+<div id="others">
 <button class="btn charm " onclick="lizGeorge(false)"> ~ Liz ~ </button>
 <button class="btn charm " onclick="jimAnz(false)"> ~ Jim ~ </button>
-<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button>
+<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button></div>
 `;
     personReveal();
   }, 750);
@@ -413,7 +414,7 @@ function lizGeorge(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong><i class="fa-regular fa-circle-xmark"></i></strong> </button>
         <p class="edu blue"> <strong> Liz George</strong>, is a vocalist and a percussionist who studied Classical voice with Seymour Osborne,
 where she sang arias for Luciano Pavarotti and Fred Gwynne, and Rock and Blues voice with
 Joyce Bryant. She has performed with Grammy winners Chuck Mangione, David Crosby, Gloria
@@ -422,9 +423,11 @@ Weinberg. Liz has also performed with International Blues and Jazz Awards winner
 Blues Awards winner, Son Lewis, Blues Hall of Fame winner, Bobby Kyle, and PP Junior; Tony
 Award winner, Melba Moore; Gospel recording star, Mattie Moultrie Wilson; and Funk and Soul
 recording star, Buddy Hanks (Aurra, Young and Company, and Steve Arrington’s Hall of Fame).</p>
+<div id="others">
+
 <button class="btn charm " onclick="captDave(false)"> ~ Capt' ~ </button>
 <button class="btn charm " onclick="jimAnz(false)"> ~ Jim ~ </button>
-<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button>
+<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button></div>
 `;
     personReveal();
   }, 750);
@@ -445,7 +448,7 @@ function jimAnz(mod) {
   person = true;
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong><i class="fa-regular fa-circle-xmark"></i></strong> </button>
         <p class="edu blue"> <strong> Jim Anzalone</strong>, started playing guitar in high school.  He played in a band called Rage with his
 sister and friend, Rick. Jim started a band with his new best friend, Kevin, after high school. 
 Kevin told Jim, “We can’t find a bass player, so you are it.” Jim continued to play with Kevin for
@@ -453,9 +456,11 @@ many years teaching himself bass. Jim decided to get serious and take bass lesso
 Ten years later he continues to take bass lessons from Rob Smith. Jim plays with Kevin in
 BeerKanChickin and <a class="" href="contact.html" target="_blank" rel="noopener noreferrer"><strong class="charm alt-con">Captain Dave & High Tide</strong></a>. Jim loves playing bass and jamming with his
 friends.</p>
+<div id="others">
+
 <button class="btn charm " onclick="captDave(false)"> ~ Capt' ~ </button>
 <button class="btn charm " onclick="lizGeorge(false)"> ~ Liz ~ </button>
-<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button>
+<button class="btn charm " onclick="markBon(false)"> ~ Mark ~ </button></div>
 `;
     personReveal();
   }, 750);
@@ -478,16 +483,18 @@ function markBon(mod) {
   // bg__img.src=`./assets/mark1.JPG`
   setTimeout(() => {
     box.innerHTML = `
-    <button class="btn charm x" onclick="addX()"> <strong>   X   </strong> </button>
+    <button class="btn charm x" onclick="addX()"> <strong><i class="fa-regular fa-circle-xmark"></i></strong> </button>
         <p class="edu blue"> <strong> Mark Bonifacio</strong>, has been playing guitar in bands for 30 years.  Starting while in college in
 Rochester, NY in the 1990s, most of his time has been spent in bands around the NYC area,
 including locations such as Mexicali Blues Cafe in Teaneck, NJ, The Turning Point in Piermont,
 NY, and The Rye Roadhouse in Rye, NY.  Mark plays a wide variety of music styles, with
 influences from various genres including Jam bands, British Rock, Classic Rock, Country, and
 Reggae.</p>
+<div id="others">
+
 <button class="btn charm " onclick="captDave(false)"> ~ Capt' ~ </button>
 <button class="btn charm " onclick="lizGeorge(false)"> ~ Liz ~ </button>
-<button class="btn charm " onclick="jimAnz(false)"> ~ Jim ~ </button>`;
+<button class="btn charm " onclick="jimAnz(false)"> ~ Jim ~ </button></div>`;
     personReveal();
   }, 750);
 }
