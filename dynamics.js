@@ -601,3 +601,13 @@ function seeMore(){
   document.getElementById("more").addEventListener("click", seeMore);
 
 document.getElementById("arrow").addEventListener("click", seeMore);
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const animatedBox = document.querySelector(".top");
+
+  // Ensure the animation only runs once
+  animatedBox.addEventListener("animationend", () => {
+    animatedBox.style.animation = "none";
+  });
+});
