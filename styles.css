@@ -866,6 +866,10 @@ MEDIA QUERIES
 
 @media (max-width: 850px){
 
+    .edu{
+        font-size: small;
+    }
+
     .pages__link--list{
         padding: 0 0 0 0;
         max-width: 100vw;
@@ -882,6 +886,7 @@ MEDIA QUERIES
 .btn{
     font-size: small;
 }
+
 
      .topB{
         left: 5%;
