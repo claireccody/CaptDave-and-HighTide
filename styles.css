@@ -944,7 +944,11 @@ MEDIA QUERIES
         display: none;
     }
     .blue{
-        resize: vertical;
+        resize: both;
+    }
+
+    .contact__btn{
+        color:rgba(245, 245, 255, 1);
     }
 }
 
@@ -953,7 +957,8 @@ MEDIA QUERIES
 .topA{
     position: absolute;
     left:10vw;
-    top: 10vh; }
+    top: 10vh; 
+}
 
     .inside__anchs{
     max-width:50%;}
@@ -963,8 +968,6 @@ MEDIA QUERIES
     height: 90vh;
         right:4%;
     }
-
-
 
 }
 

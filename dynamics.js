@@ -23,7 +23,7 @@ else playIcon=`<i class="fa-solid fa-pause orange"></i>`;
 
 //navigation icons with formatting
 const icons = `
-<div id="top__about" class="top__about bottom__album"><video muted autoplay src="./assets/cdHt(1).mp4" class="bottom__album--img" loop></video></div>
+
           <!-- <button class="btn" onclick="aboutUs()">
         <h3 class="charm inside__anch">ABOUT THE BAND</h3></button> -->
 
@@ -51,7 +51,8 @@ const icons = `
           <button class="home"><a href="contact.html" target="_blank" rel="noopener noreferrer">
             <i class="fa-solid fa-paper-plane orange send"></i></a>
           </button></figure>
-          </div>`;
+          </div>
+          <div id="top__about" class="top__about bottom__album"><video muted autoplay src="./assets/cdHt(1).mp4" class="bottom__album--img" loop></video></div>`;
 
 //loading bio as OSO
 document.getElementsByClassName("top__about")[0].innerHTML = about_the_band;
@@ -390,7 +391,6 @@ They also opened for Ruby and the Romantics (Our Day Will Come). Captain Dave ha
 appeared on stage with Willie Nile, American Singer/Songwriter. Dave has performed several
 times at Café Artiste, a prestigious venue in Ocean Grove, New Jersey for original
 singers/songwriters. Dave plays guitar, sings, and is the leader of <a class="" href="contact.html" target="_blank" rel="noopener noreferrer"><strong class="charm alt-con">Captain Dave & High Tide</strong></a>.</p>
-<i id="arrow" class="fa-solid fa-circle-chevron-up more"></i>
 <div id="others">
 <button class="btn charm " onclick="lizGeorge(false)"> ~ Liz ~ </button>
 <button class="btn charm " onclick="jimAnz(false)"> ~ Jim ~ </button>
