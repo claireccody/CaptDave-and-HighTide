@@ -944,6 +944,7 @@ MEDIA QUERIES
         display: none;
     }
     .blue{
+        border-radius: 4px;
         resize: both;
     }
 

@@ -591,7 +591,8 @@ const Swidth = window.innerWidth;
 const Sheight = window.innerHeight;
 console.log(Swidth);
 
-if (Swidth < 850) alert("If using mobile device, keep device vertical for best experience.");
+if (Swidth < 850) {
+  alert("If using mobile device, keep device vertical for best experience.");}
 
 function seeMore(){
     document.getElementById("arrow").classList.toggle("fa-circle-chevron-down");
